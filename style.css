@@ -1,0 +1,457 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+/* amezon logo box-1 */
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 115px;
+}
+.logo {
+  background-image: url("amezonlogo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/* address box-2 */
+.nav-address {
+  padding-top: 09px;
+}
+.add-first {
+  font-size: 12px;
+  color: #cccccc;
+  margin-left: 15px;
+}
+.add-sec {
+  font-size: 14px;
+  margin: 3px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* seach icon box-3 */
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 450px;
+  height: 38px;
+  border-radius: 5px;
+}
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #ffae00;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 45px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+/* sign in box-4 */
+.nav-first {
+  font-size: 12px;
+}
+.nav-sec {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Cart box 6 */
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart {
+  font-size: 14px;
+  font-weight: 700px;
+}
+
+/* secont navbar panel */
+.panel {
+  height: 40px;
+  width: 100%;
+  background-color: #222f3d;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel-all {
+  font-weight: 700;
+  padding: 0 0 0 5px;
+  width: 60px;
+}
+.panel-options p {
+  display: inline;
+  margin-left: 15px;
+}
+.panel-options {
+  font-size: 14px;
+  width: 70%;
+}
+
+/* ********* */
+/* hero section */
+.hero-section {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hero-msg {
+  height: 40px;
+  width: 1400px;
+  background-color: #f5f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 340px;
+}
+.hero-msg p {
+  font-size: 14px;
+}
+.hero-msg a {
+  text-decoration: none;
+  color: #007185;
+  font-size: 14px;
+}
+
+/* ********* */
+/*  shop-section */
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e2e2;
+}
+.box {
+  height: 380px;
+  width: 350px;
+  /* border: 1px solid black; */
+  background-color: white;
+  padding: 20px 0 15px;
+  margin-top: 15px;
+}
+.paragraph-color {
+  color: #007185;
+  font-size: 13px;
+}
+.box-contain h2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* toys */
+.box-img {
+  background-image: url("home\ decor.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 320px;
+}
+.box-contain {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* gaming accessories */
+.gaming-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 330px;
+}
+.gaming-img1,
+.gaming-img2,
+.gaming-img3,
+.gaming-img4 {
+  background-size: cover;
+  height: 115px;
+  width: 155px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 8px;
+}
+.gaming-img1 {
+  background-image: url("gaming1.jpg");
+}
+.gaming-img2 {
+  background-image: url("gaming2.jpg");
+}
+.gaming-img3 {
+  background-image: url("gaming3.jpg");
+}
+.gaming-img4 {
+  background-image: url("gaming4.jpg");
+}
+
+/* shop deal and fashion */
+.shopfashion-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 330px;
+}
+.shopfashion-img1,
+.shopfashion-img2,
+.shopfashion-img3,
+.shopfashion-img4 {
+  background-size: cover;
+  height: 115px;
+  width: 155px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 8px;
+}
+.shopfashion-img1 {
+  background-image: url("fashion.jpg");
+}
+.shopfashion-img2 {
+  background-image: url("fashion1.jpg");
+}
+.shopfashion-img3 {
+  background-image: url("fashion2.jpg");
+}
+.shopfashion-img4 {
+  background-image: url("fashion3.jpg");
+}
+
+/* deals in pcs  */
+.pcs-img {
+  background-image: url("dealsInPc.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 320px;
+}
+
+/* refresh your space  */
+.space-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 330px;
+}
+.space-img1,
+.space-img2,
+.space-img3,
+.space-img4 {
+  background-size: cover;
+  height: 115px;
+  width: 155px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 8px;
+}
+.space-img1 {
+  background-image: url("space.jpg");
+}
+.space-img2 {
+  background-image: url("space1.jpg");
+}
+.space-img3 {
+  background-image: url("space2.jpg");
+}
+.space-img4 {
+  background-image: url("space3.jpg");
+}
+
+/* Home décor */
+.toys-img {
+  background-image: url("toys.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 320px;
+}
+
+/* Amazon Gadget Store */
+.gadget-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 330px;
+}
+.gadget-img-sec {
+  display: flex;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.gadget-img1 {
+  background-image: url("gadget.jpg");
+  height: 170px;
+  width: 330px;
+  margin-right: 1rem;
+}
+.gadget-img2 {
+  background-image: url("gadget1.jpg");
+  height: 90px;
+  width: 100px;
+  margin-right: 8px;
+}
+.gadget-img3 {
+  background-image: url("gadget2.jpg");
+  height: 90px;
+  width: 100px;
+  margin-right: 8px;
+}
+.gadget-img4 {
+  background-image: url("gadet3.jpg");
+  height: 90px;
+  width: 100px;
+}
+
+/* Deals on shoes */
+.shoes-img {
+  background-image: url("shoes.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 320px;
+}
+
+.div-color {
+  height: 20px;
+  background-color: #e2e2e2;
+}
+/* ********* */
+/* phone-Accessories  */
+.phone-Accessories {
+  height: 281px;
+  /* border: 1px solid black; */
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+  height: 200px;
+  background-size: cover;
+}
+.img1 {
+  background-image: url("phone&accessories1.jpg");
+  width: 187px;
+}
+.img2 {
+  background-image: url("phone&accessories2.jpg");
+  width: 201px;
+}
+.img3 {
+  background-image: url("phone&accessories3.jpg");
+  width: 145px;
+}
+.img4 {
+  background-image: url("phone&accessories4.jpg");
+  width: 176px;
+}
+.img5 {
+  background-image: url("phone&accessories5.jpg");
+  width: 187px;
+}
+.img6 {
+  background-image: url("phone&accessories6.jpg");
+  width: 202px;
+}
+.img7 {
+  background-image: url("phone&accessories7.jpg");
+  width: 195px;
+}
+
+/* ****** */
+/* for footer */
+footer {
+  margin-top: 15px;
+}
+.foot-panel1 {
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  background-color: #37475a;
+}
+.foot-panel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-panel2 ul {
+  margin-top: 20px;
+}
+.foot-panel2 ul a {
+  display: block;
+  font-size: 14px;
+  margin-top: 14px;
+  color: #dddddd;
+}
+.foot-panel3 {
+  background-color: #222f3d;
+  border-top: 1px solid white;
+  color: white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-panel3 .logo {
+  background-image: url("amezonlogo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+.foot-panel4 {
+  background-color: #0f1111;
+  color: white;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 75px;
+  font-size: 12px;
+  text-align: center;
+}
+.foot-panel4 .pages {
+  padding-top: 25px;
+}
+.foot-panel4 .copyright {
+  padding-top: 5px;
+}
